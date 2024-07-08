@@ -4,7 +4,7 @@ import SearchIcon from "@mui/icons-material/Search";
 
 const Header = () => {
   return (
-    <nav className="bg-black backdrop-blur h-[62px] w-full px-10 sticky top-0 z-50">
+    <nav className="bg-black bg-opacity-80 h-[62px] w-full px-10 sticky top-0 z-50">
       <div className="flex items-center justify-between">
         <div className="flex items-center cursor-pointer">
           <img

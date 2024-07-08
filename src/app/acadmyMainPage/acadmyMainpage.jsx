@@ -6,7 +6,7 @@ import AirDrop from "../airDrops/airDrop";
 const AcadmyMainPage = () => {
   return (
     <div className="static">
-      <div className="w-full">
+      <div className="w-full relative">
         {/* Background Image */}
         <div>
           <img

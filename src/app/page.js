@@ -5,7 +5,7 @@ import Reward from "./reward/reward";
 
 export default function Home() {
   return (
-    <main className="bg-black">
+    <main className="bg-black relative">
       <Header />
       <AcadmyMainPage />
       <Reward />

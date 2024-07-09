@@ -56,7 +56,7 @@ const AcadmyMainPage = () => {
                     The safest and easiest place to start your crypto journy!
                   </p>
                   <p className="text-gray-500">
-                    ------------------------------------------
+                    -----------------------------------
                   </p>
                   <button className="px-4 py-2 text-sm mt-5 bg-gray-700 font-semibold md:rounded-2xl rounded-xl">
                     1490 XPs

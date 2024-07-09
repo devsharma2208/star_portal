@@ -8,7 +8,7 @@ const AcadmyMainPage = () => {
   return (
     <div>
       <div className="w-full relative">
-        {/* Background Image */}
+       
         <div>
           <img
             className="w-full h-full object-cover"
@@ -16,10 +16,9 @@ const AcadmyMainPage = () => {
             alt="main"
           />
         </div>
-        {/* Overlay Content */}
+        
         <div className="absolute top-20 left-0 w-full h-full flex flex-col items-center text-white font-bold mt-40">
-          {/* <h6 className="text-semibold text-2xl pl-[-20px] text-left w-40 text-gray-400">Intract</h6>
-          <h1 className="text-4xl">Academy</h1> */}
+         
           <div className="bg-gray-500 md:mt-[-3rem] lg:mt-[-3rem] mt-[-10rem]">
             <img
               className="md:h-20 h-10 lg:h-20 bg-transparent"
@@ -51,13 +50,13 @@ const AcadmyMainPage = () => {
                 />
                 <div className="md:pl-10 pl-3">
                   <h1 className="font-semibold md:text-2xl lg:text-2xl">
-                    Bacis of Crpto
+                    Basics of Crpto
                   </h1>
                   <p className="font-semibold pt-3 text-gray-500">
                     The safest and easiest place to start your crypto journy!
                   </p>
                   <p className="text-gray-500">
-                    -----------------------------------
+                    ----------------------------------
                   </p>
                   <button className="px-4 py-2 text-sm mt-5 bg-gray-700 font-semibold md:rounded-2xl rounded-xl">
                     1490 XPs
@@ -77,7 +76,7 @@ const AcadmyMainPage = () => {
                     <h1 className="md:text-xl lg:text-xl text-gray-200">
                       #1: But What is crypto and...
                     </h1>
-                    <p>----------------------------------</p>
+                    <p>-----------------------------</p>
                     <h2 className="flex text-gray-400 items-center gap-2">
                       <span className=" md:text-normal text-sm ">11 Tasks</span>
                       <div className="p-1 border border-black rounded-full">
@@ -101,7 +100,7 @@ const AcadmyMainPage = () => {
                     <h1 className="md:text-xl lg:text-xl text-gray-200">
                       #2: Setting up your own we...
                     </h1>
-                    <p>----------------------------------</p>
+                    <p>-----------------------------</p>
                     <h2 className="flex text-gray-400 items-center gap-2">
                       <span className=" md:text-normal text-sm ">8 Tasks</span>
                       <div className="p-1 border border-black rounded-full">
@@ -125,7 +124,7 @@ const AcadmyMainPage = () => {
                     <h1 className="md:text-xl lg:text-xl text-gray-200">
                       #3: What the heck is a...
                     </h1>
-                    <p>----------------------------------</p>
+                    <p>-----------------------------</p>
                     <h2 className="flex text-gray-400 items-center gap-2">
                       <span className=" md:text-normal text-sm ">8 Tasks</span>
                       <div className="p-1 border border-black rounded-full">
@@ -149,7 +148,7 @@ const AcadmyMainPage = () => {
                     <h1 className="md:text-xl lg:text-xl text-gray-200">
                       #4: Swapping and bridging...
                     </h1>
-                    <p>----------------------------------</p>
+                    <p>----------------------------</p>
                     <h2 className="flex text-gray-400 items-center gap-2">
                       <span className=" md:text-normal text-sm ">11 Tasks</span>
                       <div className="p-1 border border-black rounded-full">
@@ -173,7 +172,7 @@ const AcadmyMainPage = () => {
                     <h1 className="md:text-xl lg:text-xl text-gray-200">
                       #5: NFTs and why they're...
                     </h1>
-                    <p>----------------------------------</p>
+                    <p>----------------------------</p>
                     <h2 className="flex text-gray-400 items-center gap-2">
                       <span className=" md:text-normal text-sm ">11 Tasks</span>
                       <div className="p-1 border border-black rounded-full">
@@ -197,7 +196,7 @@ const AcadmyMainPage = () => {
                     <h1 className="md:text-xl lg:text-xl text-gray-200">
                       #6: Doing quests and winni...
                     </h1>
-                    <p>----------------------------------</p>
+                    <p>-----------------------------</p>
                     <h2 className="flex text-gray-400 items-center gap-2">
                       <span className=" md:text-normal text-sm ">8 Tasks</span>
                       <div className="p-1 border border-black rounded-full">

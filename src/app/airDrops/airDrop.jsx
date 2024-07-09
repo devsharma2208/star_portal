@@ -43,13 +43,13 @@ const AirDrop = () => {
           />
           <div className="md:pl-10 pl-3">
             <h1 className="font-semibold md:text-2xl lg:text-2xl">
-              Bacis of Crpto
+              Introduction to Airdrops
             </h1>
             <p className="font-semibold pt-3 text-gray-500">
-              The safest and easiest place to start your crypto journy!
+              Your best bet to make it big in crypto!
             </p>
             <p className="text-gray-500">
-              ------------------------------------------
+              ---------------------------------
             </p>
             <button className="px-4 py-2 text-sm mt-5 bg-gray-700 font-semibold md:rounded-2xl rounded-xl">
               1490 XPs
@@ -69,7 +69,7 @@ const AirDrop = () => {
               <h1 className="md:text-xl lg:text-xl text-gray-200">
                 #1: What are airdrops, and...
               </h1>
-              <p>----------------------------------</p>
+              <p>---------------------------</p>
               <h2 className="flex text-gray-400 items-center gap-2">
                 <span className=" md:text-normal text-sm ">11 Tasks</span>
                 <div className="p-1 border border-black rounded-full">
@@ -93,7 +93,7 @@ const AirDrop = () => {
               <h1 className="md:text-xl lg:text-xl text-gray-200">
                 #2: Types of airdrops
               </h1>
-              <p>----------------------------------</p>
+              <p>-------------------------</p>
               <h2 className="flex text-gray-400 items-center gap-2">
                 <span className=" md:text-normal text-sm ">5 Tasks</span>
                 <div className="p-1 border border-black rounded-full">
@@ -117,7 +117,7 @@ const AirDrop = () => {
               <h1 className="md:text-xl lg:text-xl text-gray-200">
                 #3: How to earn huge $$$...
               </h1>
-              <p>----------------------------------</p>
+              <p>---------------------------</p>
               <h2 className="flex text-gray-400 items-center gap-2">
                 <span className=" md:text-normal text-sm ">11 Tasks</span>
                 <div className="p-1 border border-black rounded-full">
@@ -141,7 +141,7 @@ const AirDrop = () => {
               <h1 className="md:text-xl lg:text-xl text-gray-200">
                 #4: Things to keep in mind...
               </h1>
-              <p>----------------------------------</p>
+              <p>---------------------------</p>
               <h2 className="flex text-gray-400 items-center gap-2">
                 <span className=" md:text-normal text-sm ">7 Tasks</span>
                 <div className="p-1 border border-black rounded-full">

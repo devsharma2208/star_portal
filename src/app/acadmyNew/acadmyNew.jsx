@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import React from "react";
 import ArrowOutwardIcon from "@mui/icons-material/ArrowOutward";
@@ -56,13 +56,13 @@ const AcadmyNew = () => {
                   Mainnet Launch or with Exciting Airdro...
                 </p>
                 <p className="text-gray-500">
-                  -----------------------------------
+                  --------------------------------
                 </p>
                 <button className="px-4 py-2 text-sm   md:text-base lg:text-sm mt-2 bg-gray-700 font-semibold md:rounded-2xl rounded-xl">
                   390 XPs
                 </button>
               </div>
-              <div className="mt-40 border border-gray-500 p-1 rounded-full text-gray-600">
+              <div className="mt-40 border border-gray-500 md:inline hidden p-1 rounded-full text-gray-600">
                 <ArrowOutwardIcon className="h-5 w-5" />
               </div>
             </div>
@@ -83,13 +83,13 @@ const AcadmyNew = () => {
                   social media, empowering creators
                 </p>
                 <p className="text-gray-500">
-                  -----------------------------------
+                  --------------------------------
                 </p>
                 <button className="px-4 py-2 text-sm   md:text-base lg:text-sm mt-2 bg-gray-700 font-semibold md:rounded-2xl rounded-xl">
                   390 XPs
                 </button>
               </div>
-              <div className="mt-40 border border-gray-500 p-1 rounded-full text-gray-600">
+              <div className="mt-40 border border-gray-500 md:inline hidden p-1 rounded-full text-gray-600">
                 <ArrowOutwardIcon className="h-5 w-5" />
               </div>
             </div>
@@ -110,13 +110,13 @@ const AcadmyNew = () => {
                   to brong the bilion users
                 </p>
                 <p className="text-gray-500">
-                  -----------------------------------
+                  --------------------------------
                 </p>
                 <button className="px-4 py-2 text-sm   md:text-base lg:text-sm mt-2 bg-gray-700 font-semibold md:rounded-2xl rounded-xl">
                   390 XPs
                 </button>
               </div>
-              <div className="mt-40 border border-gray-500 p-1 rounded-full text-gray-600">
+              <div className="mt-40 border border-gray-500 md:inline hidden p-1 rounded-full text-gray-600">
                 <ArrowOutwardIcon className="h-5 w-5" />
               </div>
             </div>
@@ -137,13 +137,13 @@ const AcadmyNew = () => {
                   social media, empowering creators
                 </p>
                 <p className="text-gray-500">
-                  -----------------------------------
+                  --------------------------------
                 </p>
                 <button className="px-4 py-2 text-sm   md:text-base lg:text-sm mt-2 bg-gray-700 font-semibold md:rounded-2xl rounded-xl">
                   390 XPs
                 </button>
               </div>
-              <div className="mt-40 border border-gray-500 p-1 rounded-full text-gray-600">
+              <div className="mt-40 border border-gray-500 md:inline hidden p-1 rounded-full text-gray-600">
                 <ArrowOutwardIcon className="h-5 w-5" />
               </div>
             </div>
@@ -164,14 +164,14 @@ const AcadmyNew = () => {
                   transactions per second, surpassing Bitc...
                 </p>
                 <p className="text-gray-500">
-                  -----------------------------------
+                  --------------------------------
                 </p>
                 <button className="px-4 py-2 text-sm   md:text-base lg:text-sm mt-2 bg-gray-700 font-semibold md:rounded-2xl rounded-xl">
                   390 XPs
                 </button>
               </div>
-              <div className="md:mt-40 lg:mt-40 mt-5 border border-gray-500 p-1 rounded-full text-gray-600">
-                <ArrowOutwardIcon className="h-3 w-3 md:h-5 lg:w-5" />
+              <div className="mt-40 border border-gray-500 md:inline hidden p-1 rounded-full text-gray-600">
+                <ArrowOutwardIcon className="h-5 w-5" />
               </div>
             </div>
           </div>

@@ -25,7 +25,7 @@ const ExploringGrass = () => {
                 prevent the concentration of AI by...
               </p>
               <p className="text-gray-500">
-                ---------------------------------------------------
+                ----------------------------------------
               </p>
 
               <button className="px-4 py-2 text-white text-sm  mt-8 md:text-base lg:text-sm mt-2 bg-gray-700 font-semibold md:rounded-2xl rounded-xl">

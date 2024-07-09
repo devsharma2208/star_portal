@@ -1,30 +1,7 @@
 "use client";
 import React, { useState } from "react";
 
-const images = [
-  {
-    iconName: "Base",
-    image:
-      "https://static.highongrowth.xyz/enterprise/65017d014e5f24613adbfd67/ce207cd4fdbe49c1afc60981212ddda7.png",
-  },
-  {
-    iconName: "OP Mainnet",
-    image:
-      "https://static.highongrowth.xyz/enterprise/65017d014e5f24613adbfd67/56d18896939849568372724f6e46a1d2.png",
-  },
-  {
-    iconName: "OP Mainnet",
-    image:
-      "https://static.highongrowth.xyz/enterprise/65017d014e5f24613adbfd67/4855cfbb35f04cf6b673fa618c2e3860.png",
-  },
-  {
-    iconName: "Ethereum",
-    image:
-      "https://static.highongrowth.xyz/enterprise/65017d014e5f24613adbfd67/090b75a96c0b49e1b74ef9ca02d1e8a2.png",
-  },
-];
-
-const CarouselSwiper = () => {
+const CarouselSwiper = ({ images }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const handleNext = () => {
@@ -40,7 +17,7 @@ const CarouselSwiper = () => {
   };
 
   return (
-    <div className="relative w-[48rem] overflow-hidden text-white">
+    <div className="relative md:w-[48rem] lg:w-[48rem] w-[20.5rem] overflow-hidden text-white">
       <div
         className="flex gap-2 transition-transform duration-500 text-gray-400 cursor-pointer"
         style={{ transform: `translateX(-${(currentIndex * 100) / 3}%)` }}
@@ -48,7 +25,7 @@ const CarouselSwiper = () => {
         {images.map((src, index) => (
           <div
             key={index}
-            className="w-1/3 flex-shrink-0 p-2 bg-gray-600 rounded-2xl"
+            className="w-1/3 flex-shrink-0 p-2 bg-gray-700 rounded-2xl"
           >
             <img
               className="w-80 h-auto"
@@ -56,14 +33,14 @@ const CarouselSwiper = () => {
               alt={`Image ${index + 1}`}
             />
             <p className="pt-5">{src.iconName}</p>
-            <h1 className="text-bold border-b border-gray-400 pb-2">
+            <h1 className="md:font-extrabold lg:font-extrabold font-semibold border-b border-gray-400 pb-2 md:text-normal text-sm text-gray-200">
               $DEGEN Meets Orbit
             </h1>
             <div className="py-5">
-              <button className="py-2 px-4 bg-gray-800 rounded-3xl mr-4">
+              <button className="md:py-2 md:px-4 py-1 px-2 md:text-normal text-sm bg-gray-800 rounded-3xl mr-4">
                 4 task
               </button>
-              <button className="py-2 px-4 bg-gray-800 rounded-3xl ">
+              <button className="md:py-2 md:px-4 py-1 px-2 md:text-normal md:mt-0 lg:mt-0 mt-2 text-sm bg-gray-800 rounded-3xl mr-4">
                 70 XPs
               </button>
             </div>

@@ -10,6 +10,8 @@ import Chat from "./chat/chat";
 import AcadmyNew from "./acadmyNew/acadmyNew";
 import Carousel from "./carousel/carousel";
 import Narratives from "./narratives/narratives";
+import Exploring from "./narratives/exploring";
+import ExploringGrass from "./narratives/exploringGrass";
 
 export default function Home() {
   return (
@@ -17,7 +19,9 @@ export default function Home() {
       <Header />
       <Chat />
       <Carousel />
-      <Narratives/>
+      <Narratives />
+      <Exploring/>
+      <ExploringGrass/>
       {/* <AcadmyMainPage /> */}
       {/* <Reward /> */}
       <AcadmyNew />

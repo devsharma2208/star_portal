@@ -2,11 +2,11 @@ import React from "react";
 import ArrowOutwardIcon from "@mui/icons-material/ArrowOutward";
 const AcadmyNew = () => {
   return (
-    <div className=" text-white w-full flex md:mt-[85rem] mt-[148rem] mb-5">
+    <div className=" text-white w-full flex md:mt-10 mt-[148rem] mb-5">
       <div>
         <div className="flex md:gap-[50rem] lg:gap-[50rem] gap-20 px-10 md:pl-10 pl-3 ">
           <h1 className="text-sm md:text-2xl lg:text-2xl">
-            {" "}
+          
             Recommended Narratives
           </h1>
           <h1 className="text-gray-500   md:text-xl lg:text-xl">See all</h1>

@@ -1,3 +1,4 @@
+"use client"
 import React from "react";
 import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
 import CarouselSwiper from "../crousalSwiper/crousalSwiper";

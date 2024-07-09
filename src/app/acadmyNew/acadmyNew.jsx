@@ -2,14 +2,13 @@ import React from "react";
 import ArrowOutwardIcon from "@mui/icons-material/ArrowOutward";
 const AcadmyNew = () => {
   return (
-    <div className=" text-white w-full flex md:mt-10 mt-[148rem] mb-5">
+    <div className=" text-white w-full flex mt-10 mb-5">
       <div>
-        <div className="flex md:gap-[50rem] lg:gap-[50rem] gap-20 px-10 md:pl-10 pl-3 ">
+        <div className="flex px-10 md:pl-10 pl-3 justify-between">
           <h1 className="text-sm md:text-2xl lg:text-2xl">
-          
             Recommended Narratives
           </h1>
-          <h1 className="text-gray-500   md:text-xl lg:text-xl">See all</h1>
+          <h1 className="text-gray-500 md:text-xl lg:text-xl">See all</h1>
         </div>
         <div className="flex flex-wrap gap-2">
           <div>
@@ -28,13 +27,13 @@ const AcadmyNew = () => {
                   knowledge tech and EVM compatibility...
                 </p>
                 <p className="text-gray-500">
-                  -----------------------------------
+                  --------------------------------
                 </p>
                 <button className="px-4 py-2 text-sm   md:text-base lg:text-sm mt-2 bg-gray-700 font-semibold md:rounded-2xl rounded-xl">
                   390 XPs
                 </button>
               </div>
-              <div className="mt-40 border border-gray-500 p-1 rounded-full text-gray-600">
+              <div className="mt-40 border border-gray-500 md:inline hidden p-1 rounded-full text-gray-600">
                 <ArrowOutwardIcon className="h-5 w-5" />
               </div>
             </div>

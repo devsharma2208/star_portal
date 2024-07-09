@@ -12,23 +12,31 @@ import Carousel from "./carousel/carousel";
 import Narratives from "./narratives/narratives";
 import Exploring from "./narratives/exploring";
 import ExploringGrass from "./narratives/exploringGrass";
+import { store } from "@/redux/store";
+import { Provider } from "react-redux";
+
+store.subscribe(() => {
+  console.log("pageredux:- ", store.getState());
+});
 
 export default function Home() {
   return (
-    <main className="bg-black relative min-h-screen">
-      <Header />
-      <Chat />
-      <Carousel />
-      <Narratives />
-      <Exploring/>
-      <ExploringGrass/>
-      {/* <AcadmyMainPage /> */}
-      {/* <Reward /> */}
-      <AcadmyNew />
-      <ProjectToFollow />
-      <CriptoDictionary />
-      <StickyBtn />
-      <Footer />
-    </main>
+    <Provider store={store}>
+      <main className="bg-black relative min-h-screen">
+        <Header />
+        <Chat />
+        <Carousel />
+        <Narratives />
+        <Exploring />
+        <ExploringGrass />
+        {/* <AcadmyMainPage /> */}
+        {/* <Reward /> */}
+        <AcadmyNew />
+        <ProjectToFollow />
+        <CriptoDictionary />
+        <StickyBtn />
+        <Footer />
+      </main>
+    </Provider>
   );
 }

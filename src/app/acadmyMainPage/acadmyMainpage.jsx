@@ -19,7 +19,7 @@ const AcadmyMainPage = () => {
         <div className="absolute top-20 left-0 w-full h-full flex flex-col items-center text-white font-bold mt-40">
           {/* <h6 className="text-semibold text-2xl pl-[-20px] text-left w-40 text-gray-400">Intract</h6>
           <h1 className="text-4xl">Academy</h1> */}
-          <div className=" bg-gray-500">
+          <div className="bg-gray-500 mt-[-3rem]">
             <img
               className="h-20 bg-transparent"
               src="https://www.intract.io/assets/academy-animated-logo-57b2ae61.gif"

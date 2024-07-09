@@ -1,26 +1,51 @@
 "use client";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import SearchIcon from "@mui/icons-material/Search";
+import MenuIcon from "@mui/icons-material/Menu";
+import CloseIcon from "@mui/icons-material/Close";
+import Navlinks from "./navlinks";
 
 const Header = () => {
+  const [open, setOpen] = useState(false);
+  useEffect(() => {
+    if (open) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "auto";
+    }
+  }, [open]);
   return (
     <nav className="bg-black bg-opacity-80 h-[62px] w-full px-10 sticky top-0 z-50">
       <div className="flex items-center justify-between">
-        <div className="flex items-center cursor-pointer">
+        <div className="flex items-center justify-between w-full md:w-auto z-30">
           <img
-            className="w-30 h-[55px] mt-2 color-white"
+            className="w-30 h-[55px] mt-2 color-white cursor-pointer"
             src="https://clubrunner.blob.core.windows.net/00000002427/PhotoAlbum/branding/Interact-white.png"
             alt=""
           />
+          <div
+            className="text-white text-3xl md:hidden cursor-pointer "
+            onClick={() => setOpen(!open)}
+          >
+            {!open ? <MenuIcon /> : <CloseIcon />}
+          </div>
         </div>
-        <div className="flex text-white items-center gap-5 font-semibold">
+        <div className="md:flex text-white items-center gap-5 font-semibold hidden">
+          {/* <Navlinks/> */}
           <h1 className="cursor-pointer">Compass</h1>
           <h1 className="cursor-pointer">Explore</h1>
           <h1 className="cursor-pointer">Academy</h1>
           <h1 className="cursor-pointer">NFTs</h1>
           <h1 className="cursor-pointer">For Projects</h1>
         </div>
-        <div className="flex items-center gap-5">
+        <ul
+          className={`md:hidden bg-black text-white overflow-scroll absolute w-full h-screen top-0 bottom-0 px-5 py-16 duration-500 z-10 ${
+            open ? "left-0" : "left-[-100%]"
+          }`}
+        >
+          <Navlinks />
+        </ul>
+        <div className="md:flex items-center gap-5 hidden">
           <div className="bg-gray-500 rounded-3xl px-3">
             <SearchIcon className="text-gray-800" />
             <input

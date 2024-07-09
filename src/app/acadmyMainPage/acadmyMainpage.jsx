@@ -76,7 +76,7 @@ const AcadmyMainPage = () => {
                     <h1 className="md:text-xl lg:text-xl text-gray-200">
                       #1: But What is crypto and...
                     </h1>
-                    <p>-----------------------------</p>
+                    <p>--------------------------</p>
                     <h2 className="flex text-gray-400 items-center gap-2">
                       <span className=" md:text-normal text-sm ">11 Tasks</span>
                       <div className="p-1 border border-black rounded-full">
@@ -100,7 +100,7 @@ const AcadmyMainPage = () => {
                     <h1 className="md:text-xl lg:text-xl text-gray-200">
                       #2: Setting up your own we...
                     </h1>
-                    <p>-----------------------------</p>
+                    <p>--------------------------</p>
                     <h2 className="flex text-gray-400 items-center gap-2">
                       <span className=" md:text-normal text-sm ">8 Tasks</span>
                       <div className="p-1 border border-black rounded-full">
@@ -124,7 +124,7 @@ const AcadmyMainPage = () => {
                     <h1 className="md:text-xl lg:text-xl text-gray-200">
                       #3: What the heck is a...
                     </h1>
-                    <p>-----------------------------</p>
+                    <p>--------------------------</p>
                     <h2 className="flex text-gray-400 items-center gap-2">
                       <span className=" md:text-normal text-sm ">8 Tasks</span>
                       <div className="p-1 border border-black rounded-full">
@@ -148,7 +148,7 @@ const AcadmyMainPage = () => {
                     <h1 className="md:text-xl lg:text-xl text-gray-200">
                       #4: Swapping and bridging...
                     </h1>
-                    <p>----------------------------</p>
+                    <p>-------------------------</p>
                     <h2 className="flex text-gray-400 items-center gap-2">
                       <span className=" md:text-normal text-sm ">11 Tasks</span>
                       <div className="p-1 border border-black rounded-full">
@@ -172,7 +172,7 @@ const AcadmyMainPage = () => {
                     <h1 className="md:text-xl lg:text-xl text-gray-200">
                       #5: NFTs and why they're...
                     </h1>
-                    <p>----------------------------</p>
+                    <p>-------------------------</p>
                     <h2 className="flex text-gray-400 items-center gap-2">
                       <span className=" md:text-normal text-sm ">11 Tasks</span>
                       <div className="p-1 border border-black rounded-full">
@@ -196,7 +196,7 @@ const AcadmyMainPage = () => {
                     <h1 className="md:text-xl lg:text-xl text-gray-200">
                       #6: Doing quests and winni...
                     </h1>
-                    <p>-----------------------------</p>
+                    <p>--------------------------</p>
                     <h2 className="flex text-gray-400 items-center gap-2">
                       <span className=" md:text-normal text-sm ">8 Tasks</span>
                       <div className="p-1 border border-black rounded-full">

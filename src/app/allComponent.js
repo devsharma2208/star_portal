@@ -33,10 +33,10 @@ export default function AllComponents() {
           <Narratives />
           <Exploring />
           <ExploringGrass />
+          <AcadmyNew />
         </>
       )}
 
-      <AcadmyNew />
       <ProjectToFollow />
       <CriptoDictionary />
       <StickyBtn />

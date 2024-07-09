@@ -1,3 +1,4 @@
+"use client"
 import React from "react";
 import CommentIcon from "@mui/icons-material/Comment";
 const Chat = () => {

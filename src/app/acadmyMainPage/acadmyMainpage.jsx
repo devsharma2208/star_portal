@@ -1,3 +1,4 @@
+"use client"
 import React from "react";
 import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";

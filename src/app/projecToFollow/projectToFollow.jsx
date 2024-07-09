@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import SlideshowOutlinedIcon from "@mui/icons-material/SlideshowOutlined";
 import PlayArrowIcon from "@mui/icons-material/PlayArrow";

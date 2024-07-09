@@ -1,3 +1,4 @@
+"use client"
 import React from "react";
 import MenuBookOutlinedIcon from "@mui/icons-material/MenuBookOutlined";
 const CriptoDictionary = () => {

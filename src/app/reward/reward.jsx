@@ -6,7 +6,7 @@ import SportsEsportsIcon from "@mui/icons-material/SportsEsports";
 import InfoOutlinedIcon from "@mui/icons-material/InfoOutlined";
 const Reward = () => {
   return (
-    <div className="relative text-white w-full flex justify-end text-right mt-[85rem] py-10 px-10 gap-20 pr-20 flex-wrap border-b border-dotted border-gray-600 mb-5">
+    <div className="relative text-white w-full flex md:justify-end justify-center text-right md:mt-[85rem] mt-[148rem] py-10 md:px-10 gap-20 md:pr-20 flex-wrap border-b border-dotted border-gray-600 mb-5">
       <div>
         <div className="flex flex-col items-end max-w-full">
           <div className="bg-gray-800 p-5 rounded-xl text-gray-400 font-xl">
@@ -71,7 +71,7 @@ const Reward = () => {
 
         <div></div>
       </div>
-      <div className="w-80 text-left mt-20 mr-10 text-gray-400">
+      <div className="w-80 text-left md:mt-20 md:mr-10 text-gray-400">
         <div className="bg-gray-800 text-sm h-auto p-5 rounded-xl">
           <div className="border-b border-dotted border-gray-100 pb-3 font-semibold tracking-wider">
             <h3>

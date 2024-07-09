@@ -13,7 +13,7 @@ const ProjectToFollow = () => {
         </p>
       </div>
 
-      <div className="flex m-10 gap-6">
+      <div className="flex m-10 gap-6 flex-wrap md:flex-nowrap">
         <div className="cursor-pointer">
           <div className="relative group">
             <div className="text-gray-400 text-xl absolute top-0 text-right px-5 z-2 py-5 w-full">

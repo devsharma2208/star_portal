@@ -29,7 +29,7 @@ const AcadmyNew = () => {
                   knowledge tech and EVM compatibility...
                 </p>
                 <p className="text-gray-500">
-                  --------------------------------
+                  -----------------------------
                 </p>
                 <button className="px-4 py-2 text-sm   md:text-base lg:text-sm mt-2 bg-gray-700 font-semibold md:rounded-2xl rounded-xl">
                   390 XPs
@@ -56,7 +56,7 @@ const AcadmyNew = () => {
                   Mainnet Launch or with Exciting Airdro...
                 </p>
                 <p className="text-gray-500">
-                  --------------------------------
+                  -----------------------------
                 </p>
                 <button className="px-4 py-2 text-sm   md:text-base lg:text-sm mt-2 bg-gray-700 font-semibold md:rounded-2xl rounded-xl">
                   390 XPs
@@ -83,7 +83,7 @@ const AcadmyNew = () => {
                   social media, empowering creators
                 </p>
                 <p className="text-gray-500">
-                  --------------------------------
+                  -----------------------------
                 </p>
                 <button className="px-4 py-2 text-sm   md:text-base lg:text-sm mt-2 bg-gray-700 font-semibold md:rounded-2xl rounded-xl">
                   390 XPs
@@ -110,7 +110,7 @@ const AcadmyNew = () => {
                   to brong the bilion users
                 </p>
                 <p className="text-gray-500">
-                  --------------------------------
+                  -----------------------------
                 </p>
                 <button className="px-4 py-2 text-sm   md:text-base lg:text-sm mt-2 bg-gray-700 font-semibold md:rounded-2xl rounded-xl">
                   390 XPs
@@ -137,7 +137,7 @@ const AcadmyNew = () => {
                   social media, empowering creators
                 </p>
                 <p className="text-gray-500">
-                  --------------------------------
+                  -----------------------------
                 </p>
                 <button className="px-4 py-2 text-sm   md:text-base lg:text-sm mt-2 bg-gray-700 font-semibold md:rounded-2xl rounded-xl">
                   390 XPs
@@ -164,7 +164,7 @@ const AcadmyNew = () => {
                   transactions per second, surpassing Bitc...
                 </p>
                 <p className="text-gray-500">
-                  --------------------------------
+                  -----------------------------
                 </p>
                 <button className="px-4 py-2 text-sm   md:text-base lg:text-sm mt-2 bg-gray-700 font-semibold md:rounded-2xl rounded-xl">
                   390 XPs
